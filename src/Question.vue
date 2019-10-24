@@ -16,7 +16,6 @@
       <label>{{answer}}</label>
     </div>
     <button v-show="quizAnswer" v-on:click="setAnswer">Submit</button>
-    <!--<p>{{question.answers}}</p>-->
   </div>
 </template>
 
@@ -43,14 +42,10 @@ export default {
       this.showQuestions = false;
       this.display = "none";
 
-      //document.getElementById("question").style("display")="none";
-      //element.style(display:none;);
-      //console.log("Question NUm: " + this.numOfAnswers);
+      
     }
   }
 };
 </script>
 
-<style scoped>
-</style>
 
